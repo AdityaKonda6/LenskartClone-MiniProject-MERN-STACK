@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd Lenskart_Clone-master\\lenskart_clone\\frontend && npm start",
+    "backend": "cd Lenskart_Clone-master\\lenskart_clone\\backend && npm start",
+    "adi": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "build": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "react-router-dom": "^6.17.0",
+    "sweetalert2": "^11.7.31",
+    "sweetalert2-react-content": "^5.0.7"
+  }
+}
